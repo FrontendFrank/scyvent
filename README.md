@@ -1,5 +1,5 @@
 # scyvent
-**scyvent** is a full-featured event- and scoretracker for the Scythe boardgame.
+**scyvent** aims to be a full-featured event- and scoretracker for the Scythe boardgame.
 
 At its core is a complete standardized deterministic action and event tracking notation for Scythe.
 scyvent includes an interpreter, [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) 
