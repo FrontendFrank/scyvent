@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {HextileComponent} from '../hextile/hextile.component'
 
 @Component({
-  selector: 'app-board',
-  imports: [],
-  templateUrl: './board.component.html',
-  styleUrl: './board.component.scss'
+	selector: 'board',
+	imports: [HextileComponent],
+	templateUrl: './board.component.html',
+	styleUrl: './board.component.scss'
 })
 export class BoardComponent {
 

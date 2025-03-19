@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-hextile',
+  selector: 'hextile',
   imports: [],
   templateUrl: './hextile.component.html',
   styleUrl: './hextile.component.scss'
