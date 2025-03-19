@@ -32,7 +32,7 @@
 							}
 						],
 						"styles": [
-							"src/css-themes/cyan-orange.css",
+							"src/css-themes/magenta-violet.css",
 							"src/styles.scss"
 						],
 						"scripts": []
@@ -92,7 +92,7 @@
 							}
 						],
 						"styles": [
-							"src/css-themes/cyan-orange.css",
+							"src/css-themes/magenta-violet.css",
 							"src/styles.scss"
 						],
 						"scripts": []
