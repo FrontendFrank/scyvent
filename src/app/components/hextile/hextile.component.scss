@@ -1,0 +1,110 @@
+:host {
+	svg {
+		width: 90px;
+		#bg {
+		}
+
+		.river {
+			display: none;
+		}
+		#river-south-east {
+		}
+		#river-north-west {
+		}
+		#river-south-west {
+		}
+		#river-north-east {
+		}
+		#river-west {
+		}
+		#river-east {
+		}
+		#outline {
+		}
+
+
+		// primary regions
+		.primary {
+			display: none;
+		}
+		#mountain {
+		}
+		#tundra {
+		}
+		#forest {
+		}
+		#farm {
+		}
+		#village {
+		}
+
+		// lake
+		#lake {
+			display: none;
+		}
+
+
+		// misc
+		.misc {
+			display: none;
+		}
+		#factory {
+		}
+		#tunnel {
+		}
+		#encounter {
+		}
+		#leader {
+		}
+
+
+		// workers
+		.worker {
+			display: none;
+		}
+		#worker-1 {
+		}
+		#worker-2 {
+		}
+		#worker-3 {
+		}
+		#worker-4 {
+		}
+		#worker-5 {
+		}
+		#worker-6 {
+		}
+		#worker-7 {
+		}
+		#worker-8 {
+		}
+
+
+		// resources
+		.resource {
+			display: none;
+		}
+		#wood {
+		}
+		#steel {
+		}
+		#food {
+		}
+		#oil {
+		}
+
+
+		// mechs
+		.mech {
+			display: none;
+		}
+		#mech-1 {
+		}
+		#mech-2 {
+		}
+		#mech-3 {
+		}
+		#mech-4 {
+		}
+	}
+}

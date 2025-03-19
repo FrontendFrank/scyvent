@@ -1,0 +1,47 @@
+:host {
+	--leftOffset: 45px;
+	display: flex;
+	div#board {
+		margin: 40px auto 0 auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		.line {
+			margin-top: -33px;
+			hextile {
+				svg {
+					width: calc(var(--leftOffset)*2);
+				}
+			}
+		}
+		#l1 {
+			margin-left: calc(var(--leftOffset)*3);
+			#d0 {
+				margin-left: calc(var(--leftOffset)*4);
+			}
+		}
+		#l2 {
+			margin-left: calc(var(--leftOffset)*2);
+		}
+		#l3 {
+			margin-left: var(--leftOffset);
+		}
+		#l4 {
+		}
+		#l5 {
+			margin-left: var(--leftOffset);
+		}
+		#l6 {
+			margin-left: calc(var(--leftOffset)*2);
+		}
+		#l7 {
+			margin-left: var(--leftOffset);
+		}
+		#l8 {
+		}
+		#l9 {
+			margin-left: calc(var(--leftOffset)*5);
+		}
+	}
+}
