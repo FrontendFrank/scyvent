@@ -1,7 +1,7 @@
 # Editor configuration, see http://editorconfig.org
 root = true
 
-[*.{js,ts,php,json,html,css,sass,scss,txt,conf,yaml,xml,sql}]
+[*.{js,ts,php,json,html,css,sass,scss,txt,conf,yaml,xml,sql,svg}]
 charset = utf-8
 indent_style = tab
 indent_size = 8
