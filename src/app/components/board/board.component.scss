@@ -1,14 +1,24 @@
 :host {
-	--leftOffset: 47px;
 	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	//--hexWidth: 94px;
+	--hexWidth: 10.5vh;
+	//--leftOffset: 47px;
+	--leftOffset: calc(var(--hexWidth)/2);
 	div#board {
-		margin: 40px auto 0 auto;
+		background-color: #cfc5c5;
+		margin: 0;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
-
+		justify-content: start;
 		.line {
-			margin-top: -33px;
+			// margin-top: -33px;
+			margin-top: calc(var(--hexWidth)/-3);
 			hextile {
 				svg {
 					width: calc(var(--leftOffset)*2);
@@ -20,6 +30,7 @@
 			}
 		}
 		#l1 {
+			margin-top: 0;
 			margin-left: calc(var(--leftOffset)*3);
 			#d0 {
 				margin-left: calc(var(--leftOffset)*4);

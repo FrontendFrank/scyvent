@@ -1,6 +1,7 @@
 :host {
 	position: relative;
-	--myWidth: 94px;
+	//--myWidth: 94px;
+	--myWidth: 10.5vh;
 	--qW: calc(var(--myWidth)/4);
 	--xMarg: calc(var(--qW)*1.5);
 	cursor: pointer;
@@ -18,12 +19,13 @@
 		top: auto;
 
 		opacity: 0.7;
-		color: orange;
-		border: 1px solid orange;
+		color: grey;
+		border: 1px solid grey;
 		border-radius: 4px;
 		// background-color: #00fbfb;
 		text-align: center;
 		font-size: 0.8rem;
+		font-weight: bold;
 	}
 	svg {
 		width: var(--myWidth);
@@ -140,5 +142,9 @@
 		#bg {
 			display: none;
 		}
+	}
+	p.fieldIndex {
+		color: white;
+		border: 1px solid white;
 	}
 }
