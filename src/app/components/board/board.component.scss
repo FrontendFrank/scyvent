@@ -12,6 +12,10 @@
 			hextile {
 				svg {
 					width: calc(var(--leftOffset)*2);
+
+					#outline {
+						display: none;
+					}
 				}
 			}
 		}
@@ -33,7 +37,6 @@
 			margin-left: var(--leftOffset);
 		}
 		#l6 {
-			margin-left: calc(var(--leftOffset)*2);
 		}
 		#l7 {
 			margin-left: var(--leftOffset);

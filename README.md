@@ -17,16 +17,16 @@ Please note: **scyvent** is at its core a notation standard _for_ Scythe, _not_ 
 implementation of the Scythe game itself! A copy of the Scythe board-game or one of its digital implementations
 is required to play Scythe and make full use of scyvent.
 
-scyvent is built with [TypeScript](https://www.typescriptlang.org) and [Angular](https://www.angular.dev) and 
-is [Free Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software) released under 
-the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
 ### *Wutt?
 If you're not familiar with software development or computer terminology and all this up to this point
 sounds like gibberish to you, think of **scyvent** as a language to describe Scythe games that is readable
 to humans while at the same time being clear and unambiguous enough for computers to understand. 🤓
 
 ## Development
+
+**scyvent** is built with [TypeScript](https://www.typescriptlang.org) and [Angular](https://www.angular.dev) and
+is [Free Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software) released under
+the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 Initial setup was built using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
