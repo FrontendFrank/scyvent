@@ -13,7 +13,7 @@ common variations and offer easy extendability to support fan-made modes and ext
 scyvent aims to use the official Scythe terminology of the English and German board-game implementations of 
 Scythe and avoid broken wording or translations of digital implementations of Scythe.
 
-
+> [!IMPORTANT]
 > Please note: **scyvent** is at its core a notation standard **_for_** Scythe, **_not_** a complete game nor an
 implementation of the Scythe game itself! A copy of the Scythe board-game or one of its digital implementations
 is required to play Scythe and make full use of scyvent.
