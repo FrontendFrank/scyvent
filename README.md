@@ -1,11 +1,11 @@
 # scyvent
-**scyvent** aims to be a full-featured event- and scoretracker for the Scythe boardgame.
+**scyvent** aims to be a full-featured event- and scoretracker for the **Scythe** boardgame and all it's extensions (official as well as the popular fan-made ones).
 
-At its core is a complete standardized deterministic action and event tracking notation for Scythe.
-scyvent includes an interpreter, [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) 
+At its core **scyvent** is a complete standardized deterministic action and event tracking notation for Scythe.
+**scyvent** includes an interpreter, [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) 
 and runner and is suitable for tracking, recording, live-scoring and scripting games, matches and
 complete tournaments or building and running AI opponents for Scythe.
-... Errrm, ... [Wutt?*](#Wutt?)
+... _Errrm, ... [Wutt?*](#Wutt?) <--- click here for normal human speak._
 
 scyvent aims to support all official rules, extensions, boards, SOPs and modes of Scythe including their
 common variations and offer easy extendability to support fan-made modes and extensions.
@@ -21,7 +21,7 @@ is required to play Scythe and make full use of scyvent.
 ### *Wutt?
 If you're not familiar with software development or computer terminology and all this up to this point
 sounds like gibberish to you, think of **scyvent** as a language to describe Scythe games that is readable
-to humans while at the same time being clear and unambiguous enough for computers to understand. 🤓
+to humans while at the same time being clear and unambiguous enough for computers to understand, desribe and replay. 🤓
 
 #### Early Development Screenshot
 ![early development screenshot](scyvent-screenshot.png "Title")
