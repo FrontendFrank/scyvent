@@ -4,6 +4,7 @@
 	--myWidth: 10.5vh;
 	--qW: calc(var(--myWidth)/4);
 	--xMarg: calc(var(--qW)*1.5);
+	--showOrHide: none; /** none || content **/
 	cursor: pointer;
 	p.fieldIndex {
 		display: block;
@@ -36,25 +37,25 @@
 		}
 
 		.river {
-			display: none;
+			display: var(--showOrHide);
 		}
-		#river-south-east {
+		#river_south_east {
 		}
-		#river-north-west {
+		#river_north_west {
 		}
-		#river-south-west {
+		#river_south_west {
 		}
-		#river-north-east {
+		#river_north_east {
 		}
-		#river-west {
+		#river_west {
 		}
-		#river-east {
+		#river_east {
 		}
 
 
 		// primary regions
 		.primary {
-			display: none;
+			display: var(--showOrHide);
 		}
 		#mountain {
 		}
@@ -69,13 +70,13 @@
 
 		// lake
 		#lake {
-			display: none;
+			display: var(--showOrHide);
 		}
 
 
 		// misc
 		.misc {
-			display: none;
+			display: var(--showOrHide);
 		}
 		#factory {
 		}
@@ -89,29 +90,29 @@
 
 		// workers
 		.worker {
-			display: none;
+			display: var(--showOrHide);
 		}
-		#worker-1 {
+		#worker_1 {
 		}
-		#worker-2 {
+		#worker_2 {
 		}
-		#worker-3 {
+		#worker_3 {
 		}
-		#worker-4 {
+		#worker_4 {
 		}
-		#worker-5 {
+		#worker_5 {
 		}
-		#worker-6 {
+		#worker_6 {
 		}
-		#worker-7 {
+		#worker_7 {
 		}
-		#worker-8 {
+		#worker_8 {
 		}
 
 
 		// resources
 		.resource {
-			display: none;
+			display: var(--showOrHide);
 		}
 		#wood {
 		}
@@ -125,27 +126,27 @@
 
 		// mechs
 		.mech {
-			display: none;
+			display: var(--showOrHide);
 		}
-		#mech-1 {
+		#mech_1 {
 		}
-		#mech-2 {
+		#mech_2 {
 		}
-		#mech-3 {
+		#mech_3 {
 		}
-		#mech-4 {
+		#mech_4 {
 		}
 
 		// paths
 		.path {
-			display: none;
+			display: var(--showOrHide);
 		}
 	}
 }
 :host:hover {
 	svg {
 		#bg {
-			display: none;
+			display: var(--showOrHide);
 		}
 	}
 	p.fieldIndex {
