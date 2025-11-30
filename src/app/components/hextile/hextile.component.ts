@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
 	selector: 'hextile',
@@ -7,8 +7,11 @@ import {Component} from '@angular/core';
 	styleUrl: './hextile.component.scss'
 })
 export class HextileComponent {
-	show = {
-		bg: false,
+	@Input() fi: string = '';
+	@Input() terrain: string = '';
+
+	show:any = {
+		bg: true,
 		lake: false,
 		river_south_east: false,
 		river_north_west: false,
@@ -16,7 +19,7 @@ export class HextileComponent {
 		river_north_east: false,
 		river_west: false,
 		river_east: false,
-		home_outline: false,
+		home_outline: true,
 		outline: false,
 		mountain: false,
 		tundra: false,
@@ -50,4 +53,10 @@ export class HextileComponent {
 		path_south_west: false,
 		path_north_east: false,
 	}
+	init() {
+		if (this.terrain) {
+			this.show[this.terrain] = true;
+		}
+	}
+	// show[this.terrain] = true;
 }

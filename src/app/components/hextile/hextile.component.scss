@@ -2,10 +2,10 @@
 	position: relative;
 	//--myWidth: 94px;
 	--myWidth: 10.5vh;
-	--qW: calc(var(--myWidth)/4);
-	--xMarg: calc(var(--qW)*1.5);
-	--showOrHide: none; /** none || content **/
+	--qW: calc(var(--myWidth) / 4);
+	--xMarg: calc(var(--qW) * 1.5);
 	cursor: pointer;
+
 	p.fieldIndex {
 		display: block;
 		padding: 1px 0 0 0;
@@ -20,135 +20,172 @@
 		top: auto;
 
 		opacity: 0.7;
-		color: grey;
-		border: 1px solid grey;
+		color: white;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		border: 1px solid rgba(0,0,0,0);
 		border-radius: 4px;
 		// background-color: #00fbfb;
 		text-align: center;
 		font-size: 0.8rem;
 		font-weight: bold;
 	}
+
 	svg {
 		width: var(--myWidth);
+
 		#bg {
+			opacity: 0.2;
 		}
+
 		#outline {
 			fill: #b5b7b8;
 		}
 
 		.river {
-			display: var(--showOrHide);
 		}
+
 		#river_south_east {
 		}
+
 		#river_north_west {
 		}
+
 		#river_south_west {
 		}
+
 		#river_north_east {
 		}
+
 		#river_west {
 		}
+
 		#river_east {
 		}
 
 
 		// primary regions
 		.primary {
-			display: var(--showOrHide);
+
 		}
+
 		#mountain {
 		}
+
 		#tundra {
 		}
+
 		#forest {
 		}
+
 		#farm {
 		}
+
 		#village {
 		}
 
 		// lake
 		#lake {
-			display: var(--showOrHide);
+
 		}
 
 
 		// misc
 		.misc {
-			display: var(--showOrHide);
+
 		}
+
 		#factory {
 		}
+
 		#tunnel {
 		}
+
 		#encounter {
 		}
+
 		#leader {
 		}
 
 
 		// workers
 		.worker {
-			display: var(--showOrHide);
+
 		}
+
 		#worker_1 {
 		}
+
 		#worker_2 {
 		}
+
 		#worker_3 {
 		}
+
 		#worker_4 {
 		}
+
 		#worker_5 {
 		}
+
 		#worker_6 {
 		}
+
 		#worker_7 {
 		}
+
 		#worker_8 {
 		}
 
 
 		// resources
 		.resource {
-			display: var(--showOrHide);
+
 		}
+
 		#wood {
 		}
+
 		#steel {
 		}
+
 		#food {
 		}
+
 		#oil {
 		}
 
 
 		// mechs
 		.mech {
-			display: var(--showOrHide);
 		}
+
 		#mech_1 {
 		}
+
 		#mech_2 {
 		}
+
 		#mech_3 {
 		}
+
 		#mech_4 {
 		}
 
 		// paths
 		.path {
-			display: var(--showOrHide);
+
 		}
 	}
 }
+
 :host:hover {
 	svg {
 		#bg {
-			display: var(--showOrHide);
+			fill: #b5b7b8;
+			opacity: 0.3;
 		}
 	}
+
 	p.fieldIndex {
 		color: white;
 		border: 1px solid white;
