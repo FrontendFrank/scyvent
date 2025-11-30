@@ -34,7 +34,7 @@
 		width: var(--myWidth);
 
 		#bg {
-			opacity: 0.2;
+			opacity: 1;
 		}
 
 		#outline {
@@ -181,8 +181,12 @@
 :host:hover {
 	svg {
 		#bg {
-			fill: #b5b7b8;
-			opacity: 0.3;
+		}
+		#outline {
+			fill: limegreen;
+		}
+		#home_outline {
+			fill: darkorange;
 		}
 	}
 

@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
 	selector: 'hextile',
@@ -6,12 +6,14 @@ import {Component, Input} from '@angular/core';
 	templateUrl: './hextile.component.html',
 	styleUrl: './hextile.component.scss'
 })
-export class HextileComponent {
+export class HextileComponent implements OnInit{
 	@Input() fi: string = '';
 	@Input() terrain: string = '';
 
+
 	show:any = {
 		bg: true,
+		bgfill: "#eeeeee",
 		lake: false,
 		river_south_east: false,
 		river_north_west: false,
@@ -52,8 +54,16 @@ export class HextileComponent {
 		path_north_west: false,
 		path_south_west: false,
 		path_north_east: false,
-	}
-	init() {
+	};
+	ngOnInit(): void {
+		switch (this.terrain) {
+			case 'lake': this.show.bgfill = "blue"; break;
+			case 'mountain': this.show.bgfill = "grey"; break;
+			case 'forest': this.show.bgfill = "green"; break;
+			case 'farm': this.show.bgfill = "yellow"; break;
+			case 'village': this.show.bgfill = "orangered"; break;
+			case 'tundra': this.show.bgfill = "cadetblue"; break;
+		}
 		if (this.terrain) {
 			this.show[this.terrain] = true;
 		}
