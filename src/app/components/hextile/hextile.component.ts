@@ -60,7 +60,7 @@ export class HextileComponent implements OnInit{
 			case 'lake': this.show.bgfill = "blue"; break;
 			case 'mountain': this.show.bgfill = "grey"; break;
 			case 'forest': this.show.bgfill = "green"; break;
-			case 'farm': this.show.bgfill = "yellow"; break;
+			case 'farm': this.show.bgfill = "goldenrod"; break;
 			case 'village': this.show.bgfill = "orangered"; break;
 			case 'tundra': this.show.bgfill = "cadetblue"; break;
 		}

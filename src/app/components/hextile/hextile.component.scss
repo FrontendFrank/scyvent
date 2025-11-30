@@ -36,6 +36,9 @@
 		#bg {
 			opacity: 1;
 		}
+		#highlight {
+			opacity: 0;
+		}
 
 		#outline {
 			fill: #b5b7b8;
@@ -85,7 +88,6 @@
 
 		// lake
 		#lake {
-
 		}
 
 
@@ -181,12 +183,16 @@
 :host:hover {
 	svg {
 		#bg {
+			// opacity: 0.5;
+		}
+		#highlight {
+			opacity: 1;
 		}
 		#outline {
-			fill: limegreen;
+			// fill: limegreen;
 		}
 		#home_outline {
-			fill: darkorange;
+			// fill: darkorange;
 		}
 	}
 
