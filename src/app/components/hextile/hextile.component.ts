@@ -9,8 +9,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class HextileComponent implements OnInit{
 	@Input() fi: string = '';
 	@Input() terrain: string = '';
-
-
+	@Input() textlabel: string = '';
 	show:any = {
 		bg: true,
 		bgfill: "#eeeeee",
@@ -63,6 +62,7 @@ export class HextileComponent implements OnInit{
 			case 'farm': this.show.bgfill = "goldenrod"; break;
 			case 'village': this.show.bgfill = "orangered"; break;
 			case 'tundra': this.show.bgfill = "cadetblue"; break;
+			case 'factory': this.show.bgfill = "lightsteelblue"; break;
 		}
 		if (this.terrain) {
 			this.show[this.terrain] = true;

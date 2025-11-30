@@ -1,10 +1,15 @@
 :host {
 	position: relative;
+	display: block;
+	float: left;
 	//--myWidth: 94px;
 	--myWidth: 10.5vh;
 	--qW: calc(var(--myWidth) / 4);
 	--xMarg: calc(var(--qW) * 1.5);
+	--myMinHeight: calc(var(--myWidth) / 1.154);
 	cursor: pointer;
+	width: var(--myWidth);
+	min-height: var(--myMinHeight);
 
 	p.fieldIndex {
 		display: block;
@@ -25,6 +30,21 @@
 		border: 1px solid rgba(0,0,0,0);
 		border-radius: 4px;
 		// background-color: #00fbfb;
+		text-align: center;
+		font-size: 0.8rem;
+		font-weight: bold;
+	}
+	span.textlabel {
+		z-index: 500;
+		margin: auto;
+		padding: 0;
+		width: 100%;
+		max-height: 1rem;
+		position: absolute;
+			top: calc(var(--qW)*1.9);
+			left: auto;
+			right: auto;
+			bottom: auto;
 		text-align: center;
 		font-size: 0.8rem;
 		font-weight: bold;
