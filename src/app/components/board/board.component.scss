@@ -10,8 +10,7 @@
 	//--leftOffset: 47px;
 	--leftOffset: calc(var(--hexWidth)/2);
 	div#board {
-		// background-color: #cfc5c5;
-		background-image: url('main-board.png');
+		background-color: #cfc5c5;
 		background-size: cover;
 		margin: 0;
 		display: flex;
