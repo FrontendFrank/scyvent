@@ -9,7 +9,8 @@ import {Component, Input, OnInit} from '@angular/core';
 export class HextileComponent implements OnInit{
 	@Input() fi: string = '';
 	@Input() terrain: string = '';
-	@Input() textlabel: string = '';
+	@Input() faction: string = '';
+	@Input() river: string = '';
 	show:any = {
 		bg: true,
 		bgfill: "#eeeeee",
@@ -66,6 +67,12 @@ export class HextileComponent implements OnInit{
 		}
 		if (this.terrain) {
 			this.show[this.terrain] = true;
+		}
+		if (this.river) {
+			const rivers = this.river.split(',');
+			for (const river of rivers) {
+				this.show[`river_${river}`] = true;
+			}
 		}
 	}
 	// show[this.terrain] = true;

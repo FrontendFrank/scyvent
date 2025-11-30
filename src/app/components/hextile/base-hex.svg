@@ -23,9 +23,9 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
-   inkscape:zoom="1.210431"
-   inkscape:cx="209.01647"
-   inkscape:cy="156.55581"
+   inkscape:zoom="1.264363"
+   inkscape:cx="110.72769"
+   inkscape:cy="135.64143"
    inkscape:window-width="1472"
    inkscape:window-height="890"
    inkscape:window-x="0"
@@ -68,53 +68,55 @@
 			sodipodi:insensitive="true"/></g>
 	<path
 		id="path1799"
-		style="display:none;fill:#000000;stroke:none;stroke-width:1.59018;stroke-dasharray:none"
+		style="display:inline;fill:#000000;stroke:none;stroke-width:1.59018;stroke-dasharray:none"
 		d="M 39.685917,3.1142299e-7 4.734098e-6,22.91057 V 68.74223 L 39.685917,91.65175 79.375004,68.74223 V 22.91057 Z M 40.487409,2.3276595 76.952677,23.379678 72.92529,25.705235 40.487409,6.9787729 Z m -1.615583,0.00733 V 6.9861002 L 6.4402543,25.708353 2.4118086,23.383849 Z M 40.487409,8.8436014 71.309707,26.638159 72.11645,28.03812 V 63.627231 L 71.298125,65.020883 40.487409,82.809128 38.871826,82.801801 8.0663402,65.017763 7.2585587,63.618852 V 28.04762 L 8.0579341,26.6424 38.871826,8.8509994 Z M 77.757304,24.781708 v 42.102985 l -4.026329,-2.324504 v -37.45394 z m -76.1438327,0.0073 4.0273872,2.324506 V 64.552792 L 1.6134713,66.877297 Z M 6.4507568,65.950649 38.871826,84.666594 v 4.651114 L 2.4265244,68.273122 Z m 66.4640102,0.0033 4.027387,2.325557 -36.454745,21.045707 V 84.6741 Z"
 		sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccc"
 		inkscape:label="outline"
 		sodipodi:insensitive="true"/>
 	<path
 		id="highlight"
-		style="display:inline;fill:#ff6600;stroke:none;stroke-width:1.46757;stroke-dasharray:none"
+		style="display:none;fill:#ff6600;stroke:none;stroke-width:1.46757;stroke-dasharray:none"
 		inkscape:highlight-color="#fc9700"
 		inkscape:label="highlight"
-		d="M 39.68595 2.271696 L 1.9673218 24.046594 L 1.9673218 67.606209 L 39.68595 89.380074 L 77.407678 67.606209 L 77.407678 24.046594 L 39.68595 2.271696 z M 40.425956 5.681307 L 74.079716 25.110095 L 74.82179 26.40459 L 74.82179 65.261133 L 74.069381 66.548393 L 40.425956 85.97098 L 38.935091 85.964262 L 5.2999349 66.542708 L 4.5490763 65.253898 L 4.5490763 26.411308 L 5.2859823 25.114746 L 38.935091 5.6880249 L 40.425956 5.681307 z "/>
-	<path
-		d="m 72.87585,65.952825 -32.427358,18.72015 v 4.651113 L 76.903238,68.278381 Z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1800"
-		inkscape:label="river_south_east"
+		d="M 39.68595,2.271696 1.9673218,24.046594 V 67.606209 L 39.68595,89.380074 77.407678,67.606209 V 24.046594 Z m 0.740006,3.409611 33.65376,19.428788 0.742074,1.294495 V 65.261133 L 74.069381,66.548393 40.425956,85.97098 38.935091,85.964262 5.2999349,66.542708 4.5490763,65.253898 V 26.411308 L 5.2859823,25.114746 38.935091,5.6880249 Z"
 		sodipodi:insensitive="true"/>
-	<path
-		d="M 38.832909,2.332919 2.3728921,23.381783 6.4013174,25.706287 38.832909,6.9840323 Z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1801"
-		inkscape:label="river_north_west"
-		sodipodi:insensitive="true"/>
-	<path
-		d="M 6.4034342,65.952825 2.376047,68.278381 38.829754,89.326193 V 84.67508 Z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1802"
-		inkscape:label="river_south_west"
-		sodipodi:insensitive="true"/>
-	<path
-		d="m 40.445338,2.332919 10e-4,4.6511133 32.430533,18.7254097 4.027387,-2.325556 z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1803"
-		inkscape:label="river_north_east"
-		sodipodi:insensitive="true"/>
-	<path
-		d="m 1.5661487,24.781744 -0.00106,42.093519 4.0273872,-2.324504 0.00106,-37.443458 z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1804"
-		inkscape:label="river_west"
-		sodipodi:insensitive="true"/>
-	<path
-		d="m 77.71104,24.778589 -4.027388,2.326609 -0.0011,37.447665 4.027387,2.325557 z"
-		style="display:none;fill:#0000ff;stroke-width:1.59018"
-		id="path1805"
-		inkscape:label="river_east"
-		sodipodi:insensitive="true"/>
+
+
+	<g
+		id="g1"
+		transform="matrix(1.0210797,0,0,1.0210797,-0.78568146,-0.96917411)"
+		sodipodi:insensitive="true"
+		style="display:none"
+		inkscape:label="river"><path
+   id="river_south_east"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+   d="M 72.875138,65.035307 39.654427,84.215015 v 6.485909 l 38.83949,-22.421371 z"
+   inkscape:label="river_south_east" />
+		<path
+			id="river_north_west"
+			style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+			d="M 39.629106,0.95498047 0.78341471,23.383069 6.4021932,26.625248 39.629106,7.4434733 Z"
+			inkscape:label="river_north_west"/>
+		<path
+			id="river_south_west"
+			style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+			d="M 6.4042603,65.035307 0.78496501,68.279553 39.624972,90.702991 v -6.486426 z"
+			inkscape:label="river_south_west"/>
+		<path
+			id="river_north_east"
+			style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+			d="M 39.650293,0.95498047 V 7.4434733 l 33.226912,19.1833257 5.616712,-3.24218 z"
+			inkscape:label="river_north_east"/>
+		<path
+			id="river_west"
+			style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+			d="m 0.77152913,23.404256 -0.002067,44.847909 5.61722817,-3.24218 0.00207,-38.361482 z"
+			inkscape:label="river_west"/>
+		<path
+			id="river_east"
+			style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0000ff;enable-background:accumulate;stop-color:#000000"
+			d="m 78.505802,23.400639 -5.617228,3.245797 -0.0021,38.3651 5.619295,3.244246 z"
+			inkscape:label="river_east"/></g>
 	<path
 		d="m 9.9815723,39.254664 3.7960457,-5.061411 2.84705,3.796056 h 4.745083 l -3.163389,-4.207297 -1.581694,2.087832 -0.790847,-1.043916 2.372541,-3.16338 5.694079,7.592116 z m 8.2406047,-1.265355 z m -5.709914,0 h 2.530711 l -1.265356,-1.692407 z m 0,0 h 2.530711 z"
 		id="path1806"
