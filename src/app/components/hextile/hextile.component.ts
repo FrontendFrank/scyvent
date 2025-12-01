@@ -48,6 +48,8 @@ export class HextileComponent implements OnInit{
 		mech_2: false,
 		mech_3: false,
 		mech_4: false,
+		airship: false,
+		multi_airship: false,
 		path_west: false,
 		path_east: false,
 		path_south_east: false,

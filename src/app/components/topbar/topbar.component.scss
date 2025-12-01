@@ -1,5 +1,14 @@
 :host {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
 	max-height: 50px;
+	z-index: 100;
+	mat-toolbar {
+		max-height: 50px;
+	}
 }
 .example-spacer {
 	flex: 1 1 auto;

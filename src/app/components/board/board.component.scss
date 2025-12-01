@@ -1,11 +1,7 @@
 :host {
-	display: flex;
-	justify-content: center;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-
-	//--hexWidth: 94px;
+	//--hexWidth: 14rem;
 	--hexWidth: 10.5vh;
 	//--leftOffset: 47px;
 	--leftOffset: calc(var(--hexWidth)/2);
@@ -17,6 +13,7 @@
 		flex-direction: column;
 		flex-wrap: nowrap;
 		justify-content: start;
+		min-width: calc(var(--hexWidth)*8);
 		.line {
 			// margin-top: -33px;
 			margin-top: calc(var(--hexWidth)/-3);
