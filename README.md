@@ -5,6 +5,7 @@ At its core **scyvent** is a complete standardized deterministic action and even
 **scyvent** includes an interpreter, [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) 
 and runner and is suitable for tracking, recording, live-scoring and scripting games, matches and
 complete tournaments or building and running AI opponents for Scythe.
+
 ... _Errrm, ... [Wutt?*](#Wutt?) <--- click here for normal human speak._
 
 scyvent aims to support all official rules, extensions, boards, SOPs and modes of Scythe including their
@@ -20,7 +21,7 @@ is required to play Scythe and make full use of scyvent.
 
 ### *Wutt?
 If you're not familiar with software development or computer terminology and all this up to this point
-sounds like gibberish to you, think of **scyvent** as a language to describe Scythe games that is readable
+sounds more like gibberish to you, think of **scyvent** as a language to describe Scythe games that is readable
 to humans while at the same time being clear and unambiguous enough for computers to understand, desribe and replay. 🤓
 
 #### Early Development Screenshot
@@ -32,7 +33,7 @@ to humans while at the same time being clear and unambiguous enough for computer
 is [Free Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software) released under
 the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-Initial setup was built using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+The current setup was built using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
 ## Development server
 
