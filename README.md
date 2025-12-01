@@ -6,7 +6,7 @@ At its core **scyvent** is a complete standardized deterministic action and even
 and runner and is suitable for tracking, recording, live-scoring and scripting games, matches and
 complete tournaments or building and running AI opponents for Scythe.
 
-... _Errrm, ... [Wutt?*](#Wutt?) <--- click here for normal human speak._
+... _Errrm, ... [Wutt?*](#wutt) <--- click here for normal human speak._
 
 scyvent aims to support all official rules, extensions, boards, SOPs and modes of Scythe including their
 common variations and offer easy extendability to support fan-made modes and extensions.
