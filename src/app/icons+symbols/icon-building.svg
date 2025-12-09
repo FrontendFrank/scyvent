@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24px"
+   viewBox="0 -960 960 960"
+   width="24px"
+   fill="#e3e3e3"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon-building.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.6653716"
+     inkscape:cx="37.357257"
+     inkscape:cy="10.727084"
+     inkscape:window-width="1136"
+     inkscape:window-height="922"
+     inkscape:window-x="577"
+     inkscape:window-y="130"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     id="icon-building"
+     style="fill:#000000;stroke-width:0.918166"
+     d="M 75.46875 -960 C 33.65245 -960 -5.9211895e-15 -926.34754 0 -884.53125 L 0 -75.46875 C 0 -33.65246 33.65245 1.1368684e-13 75.46875 0 L 884.53125 0 C 926.34745 0 960 -33.65246 960 -75.46875 L 960 -884.53125 C 960 -926.34754 926.34745 -960 884.53125 -960 L 75.46875 -960 z M 87.5 -915 L 872.5 -915 C 894.2072 -915 911.64062 -897.56662 911.64062 -875.85938 L 911.64062 -84.140625 C 911.64062 -62.433375 894.2072 -45 872.5 -45 L 87.5 -45 C 65.7928 -45 48.359375 -62.433375 48.359375 -84.140625 L 48.359375 -875.85938 C 48.359375 -897.56662 65.7928 -915 87.5 -915 z M 480 -792.1875 L 76.015625 -483.67188 L 120.07812 -424.92188 L 222.89062 -503.90625 L 222.89062 -167.8125 L 443.28125 -167.8125 L 443.28125 -388.20312 L 516.71875 -388.20312 L 516.71875 -167.8125 L 737.10938 -167.8125 L 737.10938 -503.90625 L 839.92188 -424.92188 L 883.98438 -483.67188 C 884.02448 -483.8685 480 -792.1875 480 -792.1875 z M 480 -699.45312 L 663.67188 -559.84375 L 663.67188 -241.25 L 590.15625 -241.25 L 590.15625 -461.64062 L 369.84375 -461.64062 L 369.84375 -241.25 L 296.32812 -241.25 L 296.32812 -559.84375 L 480 -699.45312 z "
+     inkscape:label="icon-building" />
+</svg>
