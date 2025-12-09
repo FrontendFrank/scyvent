@@ -4,11 +4,14 @@ svg {
 .worker {
 	cursor: pointer;
 }
+.worker_p {
+	fill: black;
+}
 .worker_bg {
 	background-color: #e6e6e6;
 }
 .worker:hover {
-	#path21 {
+	.worker_p {
 		fill: orangered;
 	}
 }
